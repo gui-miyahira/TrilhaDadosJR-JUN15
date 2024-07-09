@@ -2,11 +2,9 @@
 
 import pandas as pd 
 
-
 #--Carregamento de Dados: inserindo os dados do arquivo CSV
 
 tabela = pd.read_csv("texto.csv", sep=",")
-
 
 #--Exploração de Dados:
 #--exibindo as primeiras linhas do conjunto de dados
@@ -25,7 +23,6 @@ print("\nTipos de dados da tabela:\n")
 print(tabela.dtypes,"\n")
 
 #--Estatísticas Descritivas: calcular e exibir descritivas básicas - média, mediana, mínimo, máximo, desvio padrão
-
 
 print(tabela.describe())
 
